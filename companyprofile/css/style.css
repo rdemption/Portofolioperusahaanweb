@@ -1,0 +1,357 @@
+*
+{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9); 
+    z-index: -1; 
+}
+
+
+nav .wrapper {
+    width: 1100px; 
+    margin: auto;
+    position: relative;
+    display: flex; 
+    align-items: center; 
+}
+
+.circle {
+    width: 30px; 
+    height: 30px; 
+    background-color: #007BFF; 
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Arial;
+    color: #272727;
+}
+
+.menu {
+    margin-left: auto; 
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center; 
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #A7A7A7; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #007BFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #004D89;
+}
+
+#home {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0;
+    width: 100%; 
+}
+
+.home-image {
+    width: 850px; 
+    height: auto; 
+    margin-right: 20px;
+    margin-left: 50px; 
+}
+
+section {
+    margin: auto ;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 50px; 
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #004D89 ;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #004D89;
+    width: 100%;
+    line-height: 50px;
+}
+
+.kolom .deskripsi2 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
+    color: #272727; 
+    line-height: 1.5; 
+}
+
+a.tblbiru{
+    background: #007BFF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+a.tblbiru:hover{
+    background-color: #395A66;
+    text-decoration: none
+
+}
+
+p {
+    margin : 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    padding: 20px 0; 
+}
+#services {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 40px; 
+    gap: 30px; 
+}
+
+#services .kolom {
+    max-width: 1200px; 
+    padding: 0 20px; 
+}
+
+#services img {
+    width: 700px; 
+    height: auto; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#joinus {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 40px 20px; 
+    background-color: #f4f4f4; 
+}
+
+#joinus h1 {
+    color: #004D89; 
+    font-size: 36px; 
+    margin-bottom: 20px; 
+}
+
+#joinus p {
+    font-size: 18px; 
+    color: #272727; 
+    line-height: 1.6;
+    margin-bottom: 20px; 
+}
+
+#joinus a.tblbiru {
+    background: #007BFF; 
+    border-radius: 20px;
+    padding: 15px 20px;
+    color: #FFFFFF; 
+    text-decoration: none; 
+    font-weight: bold; 
+    display: inline-block; 
+}
+
+#joinus a.tblbiru:hover {
+    background-color: #395A66; 
+}
+
+#contact {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 40px; 
+    gap: 30px; 
+}
+
+#contact .kolom {
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+#contact img {
+    width: 700px;
+    height: auto; 
+}
+
+h3 {
+    color: #004D89;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+#about {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 40px;
+    gap: 30px;
+}
+
+#about .kolom {
+    max-width: 1200px; 
+    padding: 0 20px; 
+}
+
+#about img {
+    width: 700px; 
+    height: auto; 
+}
+
+/* Main styling */
+/* Desktop navbar display */
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.menu-icon i{
+    color: #007BFF;
+    font-size: 30px;
+}
+
+/* Hide menu items initially on mobile */
+@media (max-width: 800px) {
+    .menu ul {
+        display: none; /* Hide navbar items initially on mobile */
+        flex-direction: column; /* Stack menu items vertically */
+        width: 100%;
+        background: white;
+        position: absolute;
+        top: 60px; /* Adjust based on navbar height */
+        left: 0;
+        text-align: center;
+        border-bottom: 1px solid #A7A7A7; 
+    }
+
+    /* Show menu icon on mobile */
+    .menu-icon {
+        display: block;
+    }
+
+    /* Show the menu when the icon is clicked */
+    .menu ul.show {
+        display: flex; /* Display menu on toggle */
+    }
+    
+}
+
+
+@media screen and (max-width: 991.98px) {
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px; /* Adds space between logo and menu */
+    }
+
+    /* Other responsive adjustments */
+    section, #services, #contact, #about {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #services img, #contact img, #about img {
+        width: 100%;
+        max-width: 90vw;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .kolom .deskripsi, #joinus p, #joinus h1, h3 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    #joinus {
+        padding: 20px 10px;
+    }
+
+    #joinus a.tblbiru {
+        padding: 10px 15px;
+    }
+}
